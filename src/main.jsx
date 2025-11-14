@@ -13,7 +13,7 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
         {/*  Wondering how to add routes? Visit https://reactrouter.com/start/declarative/routing  */}
         <Routes>
-            <Route path="/" element={<BubbleSort />} />
+            <Route path="/" element={<HomePage />} />
         </Routes>
     </BrowserRouter>,
 )

@@ -1,7 +1,7 @@
 // API service for communicating with Flask server
 // Controller sends data one-way - no response handling
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://exams-charged-joe-styles.trycloudflare.com ';
 
 export const sendControllerInput = (action, payload = {}) => {
   // Fire and forget - don't wait for response
